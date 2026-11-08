@@ -3,6 +3,9 @@ plugins {
 }
 
 android {
+    buildFeatures {
+    aidl true
+    }
     namespace 'com.kpgc.timerroot'
     compileSdk 36
 
